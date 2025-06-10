@@ -6,3 +6,4 @@ ipywidgets
 statsmodels
 openpyxl
 voila
+notebook>=6.0.0 # Adicione ou atualize esta linha
