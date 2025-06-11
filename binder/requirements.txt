@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+ipywidgets
+statsmodels
+openpyxl
+voila
+notebook>=6.0.0
+# Forcing rebuild 11/06/2025
