@@ -1,3 +1,2 @@
 #!/bin/bash
-git update-index --chmod=+x binder/start
-voila --no-browser dashboard_cofinanciamento_ms.ipynb
+voila --no-browser dashboard_teste.ipynb
