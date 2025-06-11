@@ -1,2 +1,1 @@
-#!/bin/bash
-voila --no-browser dashboard_teste.ipynb
+# voila --no-browser dashboard_teste.ipynb
