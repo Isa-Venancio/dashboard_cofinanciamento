@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/jovyan/
-jupyter nbconvert --to notebook --execute github_dashboard_cofinanciamento_ms2025_06_12.ipynb --output github_dashboard_cofinanciamento_ms2025_06_12.ipynb --inplace
+jupyter nbconvert --to notebook --execute github_dashboard_cofinanciamento_ms2025-06-12.ipynb --output github_dashboard_cofinanciamento_ms2025-06-12.ipynb --inplace
