@@ -1,2 +1,6 @@
 #!/bin/bash
+# Mude para o diretório onde o notebook deve estar
+cd /home/jovyan/
+
+# Agora execute o nbconvert
 jupyter nbconvert --to notebook --execute github_dashboard_cofinanciamento_ms2025_06_12.ipynb --output github_dashboard_cofinanciamento_ms2025_06_12.ipynb --inplace
