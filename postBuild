@@ -1,13 +1,7 @@
 #!/bin/bash
 cd /home/jovyan/
 
-# Define o nome do notebook de entrada e saída
 NOTEBOOK_IN="github_dashboard_cofinanciamento_ms2025-06-12.ipynb"
 NOTEBOOK_OUT="github_dashboard_cofinanciamento_ms2025-06-12_EXECUTED.ipynb"
 
-# Execute o notebook e salve as saídas em um novo arquivo
-# Usamos --allow-errors caso alguma célula "secada" ainda dê um warning que não quebre o processo
-jupyter nbconvert --to notebook --execute "${NOTEBOOK_IN}" --output "${NOTEBOOK_OUT}" --allow-errors
-
-# Opcional: Se quiser remover o notebook original após a execução
-# rm "${NOTEBOOK_IN}"
+jupyter nbconvert --to notebook --execute "${NOTEBOOK_IN}" --output "${NOTEBOOK_OUT}" --allow-errors --debug
