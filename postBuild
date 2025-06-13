@@ -3,7 +3,7 @@ cd /home/jovyan/
 
 # Define o nome do notebook de entrada e saída
 NOTEBOOK_IN="github_dashboard_cofinanciamento_ms2025-06-12.ipynb"
-NOTEBOOK_OUT="github_dashboard_cofinanciamento_ms2025_06_12_EXECUTED.ipynb"
+NOTEBOOK_OUT="github_dashboard_cofinanciamento_ms2025-06-12_EXECUTED.ipynb"
 
 # Execute o notebook e salve as saídas em um novo arquivo
 # Usamos --allow-errors caso alguma célula "secada" ainda dê um warning que não quebre o processo
